@@ -1,7 +1,6 @@
 # example netlify.toml
 [build]
 command = "npm run build" 
-  publish = "/opt/build/repo/.next"
   functions = "netlify/functions"
   publish = ".next"
 
