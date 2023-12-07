@@ -2,7 +2,10 @@
 [build]
 command = "npm run build" 
   functions = "netlify/functions"
-  publish = ".next"
+  publish = "/opt/build/repo/.next"
+
+After making changes, push your updated code to your repository and trigger a new deployment on Netlify. Review the build logs and debug information to identify the specific error causing the build to fail. If the issue persists, the debug logs should provide more details for further investigation.
+
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
