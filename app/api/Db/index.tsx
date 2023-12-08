@@ -12,7 +12,7 @@ const connectToDB = async (): Promise<void> => {
  
 
   try {
-    await mongoose.connect("mongodb+srv://abhaytalentelgia:rb6NuuAfmtU4y820@cluster0.pev7gdw.mongodb.net/test");
+    await mongoose.connect("mongodb+srv://dheerajphotoone:Ci2XErPB3SYU5tIy@cluster0.h6zuvgu.mongodb.net/?retryWrites=true&w=majority");
     isConnected = true;
 
     console.log("MongoDB connected");
